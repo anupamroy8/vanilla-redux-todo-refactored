@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+input {
+  padding: 0.5rem 1rem;
+  border: 1px solid sienna;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+ul {
+  background-color: rgb(232, 235, 236);
+}
+span{
+  color: red;
+  cursor: pointer;
+}
+ul.list {
+  list-style: none;
+}
+
+ul.list li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > button {
+  border: 1px solid salmon;
+  margin-right: 0.5rem;
+}

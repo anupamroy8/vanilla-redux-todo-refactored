@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://unpkg.com/redux@3.7.1/dist/redux.min.js"
+    ></script>
+    <script defer src="./main.js"></script>
+    <title>Todo App using Redux only</title>
+  </head>
+  <body>
+    <main>
+      <h1>To Do App (Redux)</h1>
+      <input
+        type="text"
+        class="inputbox"
+        placeholder="What needs to be done?"
+      />
+      <ul class="list"></ul>
+    </main>
+    <footer>
+      <p class="left"></p>
+      <button class="all">All</button>
+      <button class="completed">Completed</button>
+      <button class="active">Active</button>
+      <button class="clear">Clear Completed</button>
+    </footer>
+  </body>
+</html>
