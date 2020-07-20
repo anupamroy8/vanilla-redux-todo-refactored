@@ -34,6 +34,6 @@ ul.list li {
 }
 
 footer > button {
-  border: 1px solid salmon;
+  border: 1px solid rgb(204, 108, 97);
   margin-right: 0.5rem;
 }
